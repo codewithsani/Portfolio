@@ -5,12 +5,14 @@ import skillsImg2 from "./assets/css-logo.svg";
 import skillsImg3 from "./assets/javascript-logo.svg";
 import skillsImg4 from "./assets/react-logo.svg";
 import skillsImg5 from "./assets/tailwind-css-logo.svg";
+import skillsImg6 from "./assets/node-js-svgrepo-com.svg";
 
-import skillsImg6 from "./assets/figma-logo.svg";
-import skillsImg7 from "./assets/sketch-logo.svg";
-import skillsImg8 from "./assets/adobe-xd-logo.svg";
-import skillsImg9 from "./assets/adobe-photoshop-logo.svg";
-import skillsImg10 from "./assets/invision-logo.svg";
+import skillsImg7 from "./assets/arduino-svgrepo-com.svg";
+import skillsImg8 from "./assets/c-svgrepo-com.svg";
+import skillsImg9 from "./assets/python-svgrepo-com.svg";
+import skillsImg10 from "./assets/cpp-svgrepo-com.svg"; 
+import skillsImg11 from "./assets/fpga.svg";
+import skillsImg12 from "./assets/machine-learning-02-svgrepo-com.svg";
 
 import projectImg1 from "./assets/project-1.jpg";
 import projectImg2 from "./assets/project-2.jpg";
@@ -131,7 +133,7 @@ export const skill = [
     id: 1,
     img: skillsImg1,
     title: "HTML",
-    level: "Intermediate",
+    level: "Advanced",
     category: "developer",
   },
 
@@ -154,15 +156,15 @@ export const skill = [
   {
     id: 4,
     img: skillsImg4,
-    title: "React",
-    level: "Basic",
+    title: "React.js",
+    level: "Intermediate",
     category: "developer",
   },
 
   {
     id: 5,
     img: skillsImg5,
-    title: "Tailwind",
+    title: "Tailwindcss",
     level: "Intermediate",
     category: "developer",
   },
@@ -170,41 +172,56 @@ export const skill = [
   {
     id: 6,
     img: skillsImg6,
-    title: "Figma",
-    level: "Advanced",
-    category: "designer",
+    title: "Node.js",
+    level: "Intermediate",
+    category: "developer",
   },
 
   {
     id: 7,
     img: skillsImg7,
-    title: "Sketch",
-    level: "Basic",
-    category: "designer",
+    title: "Arduino",
+    level: "Intermediate",
+    category: "Hardware-Software Developer",
   },
 
   {
     id: 8,
     img: skillsImg8,
-    title: "Adobe XD",
-    level: "Intermediate",
-    category: "designer",
+    title: "C Language",
+    level: "Advanced",
+    category: "Hardware-Software Developer",
   },
 
   {
     id: 9,
     img: skillsImg9,
-    title: "Photoshop",
+    title: "Python",
     level: "Intermediate",
-    category: "designer",
+    category: "Hardware-Software Developer",
   },
 
   {
     id: 10,
     img: skillsImg10,
-    title: "InvisionApp",
-    level: "Basic",
-    category: "designer",
+    title: "C++ Language",
+    level: "Intermediate",
+    category: "Hardware-Software Developer",
+  },
+
+  {
+    id: 11,
+    img: skillsImg11,
+    title: "FPGA(Verilog&VHDL)",
+    level: "Intermediate",
+    category: "Hardware-Software Developer",
+  },
+  {
+    id: 12,
+    img: skillsImg12,
+    title: "Machine Learning",
+    level: "Intermediate",
+    category: "Hardware-Software Developer",
   },
 ];
 
@@ -271,47 +288,47 @@ export const portfolio = [
   {
     id: 1,
     img: projectImg1,
-    title: "Coffee Website",
+    title: "portfolio",
     description:
       "Short description of the project that was carried out in this portfolio.",
-    skills: [skillsImg4, skillsImg5],
+    skills: [skillsImg3, skillsImg4, skillsImg6 ],
     link: "https://portfolio-e24r.onrender.com",
   },
 
   {
     id: 2,
     img: projectImg2,
-    title: "Food Product Design",
+    title: "movie-hub",
     description:
       "Short description of the project that was carried out in this portfolio.",
-    skills: [skillsImg6, skillsImg7],
+    skills: [skillsImg1,skillsImg2,skillsImg3, skillsImg4],
     link: "https://movie-hub-alpha.vercel.app/",
   },
 
   {
     id: 3,
     img: projectImg3,
-    title: "Restaurant Landing Page",
+    title: "game-hub",
     description:
       "Short description of the project that was carried out in this portfolio.",
-    skills: [skillsImg1, skillsImg2, skillsImg3],
+    skills: [skillsImg1, skillsImg2, skillsImg3,skillsImg4],
     link: "https://game-hub-nine-tau.vercel.app/",
   },
 
   {
     id: 4,
     img: projectImg4,
-    title: "Barbershop Website",
+    title: "amazona",
     description:
       "Short description of the project that was carried out in this portfolio.",
-    skills: [skillsImg4, skillsImg5],
+    skills: [skillsImg1,skillsImg2,skillsImg3, skillsImg4, skillsImg6],
     link: "https://amazona.onrender.com",
   },
 
   {
     id: 5,
     img: projectImg5,
-    title: "Construction Landing Page",
+    title: "Cloud Hosting for Pros",
     description:
       "Short description of the project that was carried out in this portfolio.",
     skills: [skillsImg1, skillsImg2, skillsImg3],

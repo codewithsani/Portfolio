@@ -55,10 +55,10 @@ const About = () => {
           </div>
 
           <div className="skills-group">
-            <h3 className="skills-title">Web Designer</h3>
+            <h3 className="skills-title">Hardware-Software Developer</h3>
             <div className="skills-items grid">
               {skill.map((val) => {
-                if (val.category === "designer") {
+                if (val.category === "Hardware-Software Developer") {
                   return <SkillsItem key={val.id} {...val} />;
                 }
               })}
