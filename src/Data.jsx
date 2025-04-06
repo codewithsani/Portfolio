@@ -8,11 +8,11 @@ import skillsImg5 from "./assets/tailwind-css-logo.svg";
 import skillsImg6 from "./assets/node-js-svgrepo-com.svg";
 
 import skillsImg7 from "./assets/arduino-svgrepo-com.svg";
-import skillsImg8 from "./assets/c-svgrepo-com.svg";
+import skillsImg8 from "./assets/icons8-c-programming-480.svg";
 import skillsImg9 from "./assets/python-svgrepo-com.svg";
 import skillsImg10 from "./assets/cpp-svgrepo-com.svg"; 
 import skillsImg11 from "./assets/fpga.svg";
-import skillsImg12 from "./assets/machine-learning-02-svgrepo-com.svg";
+import skillsImg12 from "./assets/machine-learning-svgrepo-com.svg";
 
 import projectImg1 from "./assets/project-1.jpg";
 import projectImg2 from "./assets/project-2.jpg";
