@@ -11,10 +11,10 @@ const Home = () => {
 
       <div className="home-content">
         <h1 className="home-title">
-          <span>I'm Saied Sani</span> <br />a Fullstack Web Developer
+          <span>I'm Saied Sani</span> <br />a Hardware & Software Developer
         </h1>
         <p className="home-description">
-          I am a Backend & front-end web developer focused on crafting clean &
+          I am a Hardware & Software Developer focused on crafting clean &
           user-friendly experiences, I am passionate about building excellent
           software that improves the lives of those around me.
         </p>
