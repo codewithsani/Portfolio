@@ -263,15 +263,15 @@ export const resume = [
     desc: "I earned my bachelor's degree in Electronic Engineering in 2013, gaining a strong foundation in electronics, circuit design, and system analysis.",
   },
 
-  {
-    id: 5,
-    category: "education",
-    icon: <RiGraduationCapFill />,
-    year: "2015-2016",
-    title:
-      "Master Degree electrical engineering <span> Stuttgart University </span>",
-    desc: "I pursued a Master of Science in Electrical Engineering at Stuttgart University from 2015 to 2016, deepening my expertise in advanced electrical systems and technologies.",
-  },
+  // {
+  //   id: 5,
+  //   category: "education",
+  //   icon: <RiGraduationCapFill />,
+  //   year: "2015-2016",
+  //   title:
+  //     "Master Degree electrical engineering <span> Stuttgart University </span>",
+  //   desc: "I pursued a Master of Science in Electrical Engineering at Stuttgart University from 2015 to 2016, deepening my expertise in advanced electrical systems and technologies.",
+  // },
 
   {
     id: 6,
