@@ -336,24 +336,7 @@ export const portfolio = [
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: "https://sanified.netlify.app/",
   },
-  {
-    id: 6,
-    img: projectImg6,
-    title: "FinanceFlow",
-    description:
-      "Automate Your Financial Operations",
-    skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: "https://bloom-business-finance.lovable.app/",
-  },
-  {
-    id: 7,
-    img: projectImg7,
-    title: "WealthWhisper",
-    description:
-      "AI-Powered Financial Decisions Made Simple",
-    skills: [skillsImg1, skillsImg2, skillsImg3],
-    link: "https://wealth-whisper-ai-forecast.lovable.app/",
-  }
+
 ];
 
 export const themes = [
