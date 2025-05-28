@@ -14,13 +14,13 @@ import skillsImg10 from "./assets/cpp-svgrepo-com.svg";
 import skillsImg11 from "./assets/fpga.svg";
 import skillsImg12 from "./assets/machine-learning-svgrepo-com.svg";
 
-import projectImg1 from "./assets/Project-1.jpg";
-import projectImg2 from "./assets/Project-2.jpg";
-import projectImg3 from "./assets/Project-3.jpg";
-import projectImg4 from "./assets/Project-4.jpg";
-import projectImg5 from "./assets/Project-5.jpg";
-import projectImg6 from "./assets/Project-6.jpg ";
-import projectImg7 from "./assets/Project-7.jpg";
+import projectImg1 from "./assets/project-1.jpg";
+import projectImg2 from "./assets/project-2.jpg";
+import projectImg3 from "./assets/project-3.jpg";
+import projectImg4 from "./assets/project-4.jpg";
+import projectImg5 from "./assets/project-5.jpg";
+import projectImg6 from "./assets/project-6.jpg ";
+import projectImg7 from "./assets/project-7.jpg";
 
 import Theme1 from "./assets/red.png";
 import Theme2 from "./assets/blueviolet.png";
