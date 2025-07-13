@@ -19,6 +19,7 @@ import projectImg2 from "./assets/project-2.jpg";
 import projectImg3 from "./assets/project-3.jpg";
 import projectImg4 from "./assets/project-4.jpg";
 import projectImg5 from "./assets/project-5.jpg";
+import projectImg6 from "./assets/project-6.png";
 
 
 import Theme1 from "./assets/red.png";
@@ -334,6 +335,15 @@ export const portfolio = [
       "Short description of the project that was carried out in this portfolio.",
     skills: [skillsImg1, skillsImg2, skillsImg3],
     link: "https://sanified.netlify.app/",
+  },
+  {
+    id: 6,
+    img: projectImg6,
+    title: "Crypto-App",
+    description:
+      "crypto dashboard app using react query and react table, react, typescript and shadcn UI for components.",
+    skills: [skillsImg1,skillsImg2,skillsImg3, skillsImg4, skillsImg6],
+    link: "https://coin-dash-final.vercel.app/",
   },
 
 ];
