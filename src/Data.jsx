@@ -19,7 +19,7 @@ import projectImg2 from "./assets/project-2.jpg";
 import projectImg3 from "./assets/project-3.jpg";
 import projectImg4 from "./assets/project-4.jpg";
 import projectImg5 from "./assets/project-5.jpg";
-import projectImg6 from "./assets/project-6.jpg";
+import projectImg6 from "./assets/Project-6.jpg";
 
 
 
