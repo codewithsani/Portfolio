@@ -264,26 +264,6 @@ export const resume = [
       "Bachelor Degree Electronic Engineering  <span>  Isfahan University in Iran </span>",
     desc: "I earned my bachelor's degree in Electronic Engineering in 2013, gaining a strong foundation in electronics, circuit design, and system analysis.",
   },
-
-  // {
-  //   id: 5,
-  //   category: "education",
-  //   icon: <RiGraduationCapFill />,
-  //   year: "2015-2016",
-  //   title:
-  //     "Master Degree electrical engineering <span> Stuttgart University </span>",
-  //   desc: "I pursued a Master of Science in Electrical Engineering at Stuttgart University from 2015 to 2016, deepening my expertise in advanced electrical systems and technologies.",
-  // },
-
-  {
-    id: 6,
-    category: "education",
-    icon: <RiGraduationCapFill />,
-    year: "2025",
-    title:
-      "Master Degree in electronic Systems <span>  Technical university of Braunschweig</span>",
-    desc: "I began pursuing a Master's degree in Electronic Systems at the Technical University of Braunschweig, focusing on advanced electronics and system design.",
-  },
 ];
 
 export const portfolio = [
