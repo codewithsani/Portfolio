@@ -10,7 +10,7 @@ import skillsImg6 from "./assets/node-js-svgrepo-com.svg";
 import skillsImg7 from "./assets/arduino-svgrepo-com.svg";
 import skillsImg8 from "./assets/icons8-c-programming-480.svg";
 import skillsImg9 from "./assets/python-svgrepo-com.svg";
-import skillsImg10 from "./assets/cpp-svgrepo-com.svg"; 
+import skillsImg10 from "./assets/cpp-svgrepo-com.svg";
 import skillsImg11 from "./assets/fpga.svg";
 import skillsImg12 from "./assets/machine-learning-svgrepo-com.svg";
 
@@ -20,8 +20,7 @@ import projectImg3 from "./assets/project-3.jpg";
 import projectImg4 from "./assets/project-4.jpg";
 import projectImg5 from "./assets/project-5.jpg";
 import projectImg6 from "./assets/Project-6.jpg";
-
-
+import projectImg7 from "./assets/Project-7.jpg";
 
 import Theme1 from "./assets/red.png";
 import Theme2 from "./assets/blueviolet.png";
@@ -294,7 +293,7 @@ export const portfolio = [
     title: "portfolio",
     description:
       "Short description of the project that was carried out in this portfolio.",
-    skills: [skillsImg3, skillsImg4, skillsImg6 ],
+    skills: [skillsImg3, skillsImg4, skillsImg6],
     link: "https://portfolio-e24r.onrender.com",
   },
 
@@ -304,7 +303,7 @@ export const portfolio = [
     title: "movie-hub",
     description:
       "Short description of the project that was carried out in this portfolio.",
-    skills: [skillsImg1,skillsImg2,skillsImg3, skillsImg4],
+    skills: [skillsImg1, skillsImg2, skillsImg3, skillsImg4],
     link: "https://movie-hub-alpha.vercel.app/",
   },
 
@@ -314,7 +313,7 @@ export const portfolio = [
     title: "game-hub",
     description:
       "Short description of the project that was carried out in this portfolio.",
-    skills: [skillsImg1, skillsImg2, skillsImg3,skillsImg4],
+    skills: [skillsImg1, skillsImg2, skillsImg3, skillsImg4],
     link: "https://game-hub-nine-tau.vercel.app/",
   },
 
@@ -324,7 +323,7 @@ export const portfolio = [
     title: "amazona",
     description:
       "Short description of the project that was carried out in this portfolio.",
-    skills: [skillsImg1,skillsImg2,skillsImg3, skillsImg4, skillsImg6],
+    skills: [skillsImg1, skillsImg2, skillsImg3, skillsImg4, skillsImg6],
     link: "https://amazona.onrender.com",
   },
 
@@ -343,10 +342,18 @@ export const portfolio = [
     title: "Crypto-App",
     description:
       "crypto dashboard app using react query and react table, react, typescript and shadcn UI for components.",
-    skills: [skillsImg1,skillsImg2,skillsImg3, skillsImg4, skillsImg6],
+    skills: [skillsImg1, skillsImg2, skillsImg3, skillsImg4, skillsImg6],
     link: "https://coin-dash-final.vercel.app/",
   },
-
+  {
+    id: 7,
+    img: projectImg7,
+    title: "LMS Website",
+    description:
+      "Build Full Stack LMS Website using MERN Stack | Create Full Stack React JS Project.",
+    skills: [skillsImg1, skillsImg2, skillsImg3, skillsImg4, skillsImg6],
+    link: "https://lms-frontend-ochre-delta.vercel.app/",
+  },
 ];
 
 export const themes = [
