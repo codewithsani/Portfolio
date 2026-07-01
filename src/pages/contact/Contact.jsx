@@ -46,20 +46,26 @@ const Contact = () => {
     const YOUR_TEMPLATE_ID = import.meta.env.VITE_YOUR_TEMPLATE_ID;
     const YOUR_PUBLIC_KEY = import.meta.env.VITE_YOUR_PUBLIC_KEY;
 
-    emailjs
+   emailjs
       .send(YOUR_SERVICE_ID, YOUR_TEMPLATE_ID, formData, YOUR_PUBLIC_KEY)
-      .then(
-        () => {
-          setMessageColor("color-first");
-          setFeedbackMessage("Message sent ✔");
+      .then((response) => {
+        console.log("SUCCESS:", response);
 
-          setTimeout(() => setFeedbackMessage(""), 5000);
-          setFormData({ name: "", email: "", subject: "", message: "" });
-        },
-        (error) => {
-          alert("OOPs! SOMETHING WENT WRONG...", error);
-        }
-      );
+        setMessageColor("color-first");
+        setFeedbackMessage("Message sent ✔");
+
+        setTimeout(() => setFeedbackMessage(""), 5000);
+        setFormData({
+          name: "",
+          email: "",
+          subject: "",
+          message: "",
+        });
+      })
+      .catch((error) => {
+        console.error("EmailJS Error:", error);
+        alert(error?.text || error?.message || JSON.stringify(error));
+      });
   };
 
   return (
