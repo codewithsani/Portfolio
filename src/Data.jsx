@@ -68,8 +68,8 @@ export const personalInfo = [
   },
 
   {
-    title: "Age : ",
-    description: "36",
+    title: "birthdate : ",
+    description: "16.05.1988",
   },
 
   {
@@ -84,7 +84,7 @@ export const personalInfo = [
 
   {
     title: "Address : ",
-    description: "Germany",
+    description: "Gethsemanestr. 10 10437 Berlin",
   },
 
   {
@@ -232,7 +232,7 @@ export const resume = [
     id: 1,
     category: "experience",
     icon: <RiBriefcase4Fill />,
-    year: "2016 - Present",
+    year: "2020 - Present",
     title: "Web Developer <span> Fullstack </span>",
     desc: "I have worked as a full-stack web developer, building and maintaining dynamic, user-centric websites and applications using a wide range of front-end and back-end technologies.",
   },
@@ -241,7 +241,7 @@ export const resume = [
     id: 2,
     category: "experience",
     icon: <RiBriefcase4Fill />,
-    year: "2013 - 2016",
+    year: "2014 - 2019",
     title: "Hardware Designer <span> CMOS and Embedded System </span>",
     desc: "I worked as a hardware developer specializing in CMOS technology and embedded systems, designing and optimizing circuit boards and microcontroller-based solutions for various applications.",
   },
@@ -250,7 +250,7 @@ export const resume = [
     id: 3,
     category: "experience",
     icon: <RiBriefcase4Fill />,
-    year: "2024 -2025",
+    year: "2024 -2026",
     title: "IT Consultant <span> in Berlin </span>",
     desc: "I worked as an IT consultant, advising businesses on technology strategies, optimizing IT infrastructures, and implementing solutions to improve efficiency and drive innovation.",
   },
