@@ -11,7 +11,7 @@ const Home = () => {
 
       <div className="home-content">
         <h1 className="home-title">
-          <span>I'm Saied Sani</span> <br />a Software Developer
+          <span>I'm Saied Sani</span> <br />a Hardware and Software Developer
         </h1>
         <p className="home-description">
           I am a Hardware & Software Developer focused on crafting clean &

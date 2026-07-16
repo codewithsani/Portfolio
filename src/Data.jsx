@@ -241,7 +241,7 @@ export const resume = [
     id: 2,
     category: "experience",
     icon: <RiBriefcase4Fill />,
-    year: "2014 - 2019",
+    year: "2014 - 2020",
     title: "Hardware Designer <span> CMOS and Embedded System </span>",
     desc: "I worked as a hardware developer specializing in CMOS technology and embedded systems, designing and optimizing circuit boards and microcontroller-based solutions for various applications.",
   },
