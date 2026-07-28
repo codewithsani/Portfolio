@@ -84,7 +84,7 @@ const Contact = () => {
             <div>
               <h3 className="contact-title">Address</h3>
               <p className="contact-data">
-                Braunschweig,Niedersachsen, Deutschland
+                Berlin,Deutschland
               </p>
             </div>
           </div>
